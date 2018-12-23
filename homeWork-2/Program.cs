@@ -223,7 +223,7 @@ namespace homeWork_2
 
 
             Console.WriteLine();
-            Console.WriteLine("Задание 9");
+            Console.WriteLine("Задание 10");
             Console.WriteLine();
 
             for (int i = 20; i <= 35; i++)
