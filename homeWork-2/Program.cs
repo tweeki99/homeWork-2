@@ -13,7 +13,7 @@ namespace homeWork_2
             Console.WriteLine("Задание 1");
             Console.WriteLine();
 
-            double firstNumber, secondNumber, thirdNumber, sum;
+            double firstNumber, secondNumber, thirdNumber;
             firstNumber = double.Parse(Console.ReadLine());
             secondNumber = double.Parse(Console.ReadLine());
             thirdNumber = double.Parse(Console.ReadLine());
@@ -89,10 +89,10 @@ namespace homeWork_2
             Console.WriteLine();
 
 
-            bool A = true, B = false, C = false;
+            bool a = true, b = false, c = false;
 
             Console.WriteLine("A или B");
-            if (A || B)
+            if (a || b)
             {
                 Console.WriteLine("True");
             }
@@ -102,7 +102,7 @@ namespace homeWork_2
             }
 
             Console.WriteLine("A и B");
-            if (A && B)
+            if (a && b)
             {
                 Console.WriteLine("True");
             }
@@ -112,7 +112,7 @@ namespace homeWork_2
             }
 
             Console.WriteLine("B или C");
-            if (B || C)
+            if (b || c)
             {
                 Console.WriteLine("True");
             }
